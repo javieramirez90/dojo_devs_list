@@ -1,11 +1,13 @@
-import React from 'react';
 
 const Devs = () => {
   return (
     <div>
-    Javier
+    <h1>All dojodevs developers</h1>
+    <ul>
+      <li>Javier</li>
+    </ul>
     </div>
   );
-};
+}
 
 export default Devs;
