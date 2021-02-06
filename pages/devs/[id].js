@@ -14,6 +14,10 @@ export const getStaticPaths = async () => {
   }
 };
 
+export const getStaticProps = async (context) => {
+  const id =  contex.params.id;
+};
+
 const Details = () => {
   return (
     <div>
